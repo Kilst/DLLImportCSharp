@@ -32,11 +32,18 @@ namespace TestCppDllImport.view
         {
             if (txtNumber.Text != String.Empty)
             {
-                int choice = int.Parse(txtNumber.Text);
-                int num = GetText(choice);
-                MessageBox.Show("Number multiplied by 4: " + num);
-                string helloWorld = Marshal.PtrToStringAnsi(Hello());
-                MessageBox.Show(helloWorld);
+                try
+                {
+                    int choice = int.Parse(txtNumber.Text);
+                    int num = GetText(choice);
+                    MessageBox.Show("Number multiplied by 4: " + num);
+                    string helloWorld = Marshal.PtrToStringAnsi(Hello());
+                    MessageBox.Show(helloWorld);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.ToString());
+                }
             }
             else
                 MessageBox.Show("Empty Field!");
@@ -46,11 +53,18 @@ namespace TestCppDllImport.view
         {
             if (txtNumber.Text != String.Empty)
             {
-                int guess = int.Parse(txtNumber.Text);
-                string response = Marshal.PtrToStringAnsi(GuessNumber(guess));
-                MessageBox.Show(response);
+                try
+                {
+                    int guess = int.Parse(txtNumber.Text);
+                    string response = Marshal.PtrToStringAnsi(GuessNumber(guess));
+                    MessageBox.Show(response);
 
-                MessageBox.Show("TimesNumbers(28, 32) = " + TimesNumbers(28, 32));
+                    MessageBox.Show("TimesNumbers(28, 32) = " + TimesNumbers(28, 32));
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.ToString());
+                }
             }
             else
                 MessageBox.Show("Empty Field!");
