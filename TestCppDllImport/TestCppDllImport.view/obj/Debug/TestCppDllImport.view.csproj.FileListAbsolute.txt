@@ -1,0 +1,9 @@
+C:\Users\Kilst\Desktop\C# Programs\TestCppDllImport\TestCppDllImport.view\bin\Debug\TestCppDllImport.view.exe.config
+C:\Users\Kilst\Desktop\C# Programs\TestCppDllImport\TestCppDllImport.view\obj\Debug\TestCppDllImport.view.csprojResolveAssemblyReference.cache
+C:\Users\Kilst\Desktop\C# Programs\TestCppDllImport\TestCppDllImport.view\obj\Debug\TestCppDllImport.view.Form1.resources
+C:\Users\Kilst\Desktop\C# Programs\TestCppDllImport\TestCppDllImport.view\obj\Debug\TestCppDllImport.view.Properties.Resources.resources
+C:\Users\Kilst\Desktop\C# Programs\TestCppDllImport\TestCppDllImport.view\obj\Debug\TestCppDllImport.view.csproj.GenerateResource.Cache
+C:\Users\Kilst\Desktop\C# Programs\TestCppDllImport\TestCppDllImport.view\bin\Debug\TestCppDllImport.view.exe
+C:\Users\Kilst\Desktop\C# Programs\TestCppDllImport\TestCppDllImport.view\bin\Debug\TestCppDllImport.view.pdb
+C:\Users\Kilst\Desktop\C# Programs\TestCppDllImport\TestCppDllImport.view\obj\Debug\TestCppDllImport.view.exe
+C:\Users\Kilst\Desktop\C# Programs\TestCppDllImport\TestCppDllImport.view\obj\Debug\TestCppDllImport.view.pdb
